@@ -7,7 +7,6 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <div>"joy is learning.REact is awesome.</div>
   </React.StrictMode>,
   document.getElementById('root')
 );
