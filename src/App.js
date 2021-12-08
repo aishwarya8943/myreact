@@ -10,14 +10,23 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import Namelist from './components/Namelist';
+import StyleSheets from './components/styleSheets';
+import Inline from './components/inline';
+import Form from './components/form.js';
+
+
 
 
 function App() {
   return (
     
     <div className="App">
+      <StyleSheets primary={true} apple = {[1,2,3]}/>
+      <Inline/>
+      <Form/>
+      {/* <StyleSheets primary ={false} apple={[1,2,3,4]} mango={{tomato:"thakkali"}}/> */}
       
-      {/* <ParentComponent/> */}
+      {/* <ParentComponent/>
       <Counter/> 
       <Message/> 
       <Greet name ="Bruce" heroname ="Batman" >
@@ -33,7 +42,7 @@ function App() {
       <FunctionClick/>
       <Namelist/>
       <ClassClick/>
-      <EventBind/>
+      <EventBind/> */}
       
     </div>
   );
