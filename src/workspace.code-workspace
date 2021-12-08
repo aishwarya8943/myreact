@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../masterTool/mastertool_backend"
+		},
+		{
+			"path": "../../dojo-blog"
+		}
+	],
+	"settings": {}
+}
