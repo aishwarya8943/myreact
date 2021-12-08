@@ -8,12 +8,17 @@ import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
+import Namelist from './components/Namelist';
+
 
 function App() {
   return (
     
     <div className="App">
-      <Counter/>
+      
+      {/* <ParentComponent/> */}
+      <Counter/> 
       <Message/> 
       <Greet name ="Bruce" heroname ="Batman" >
       <p>This is children props</p>
@@ -26,6 +31,7 @@ function App() {
       <Welcome name ="Alice"heroname ="Batwomen"/>
       <Hello/>
       <FunctionClick/>
+      <Namelist/>
       <ClassClick/>
       <EventBind/>
       

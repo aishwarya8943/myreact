@@ -12,7 +12,7 @@ class Counter extends Component {
     }
 
     increment(){
-        this.setState({
+        this.setState({          //in setstate react will know that it shd be re-rendered. 
             count:this.state.count + 1
         })
         console.log(this.state.count)
